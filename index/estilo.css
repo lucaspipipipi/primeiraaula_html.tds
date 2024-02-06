@@ -1,0 +1,26 @@
+body{
+   background-color:pink;
+   
+}
+
+h1 {
+    color:palevioletred;
+    text-align: center;
+    background-color: rgb(241, 166, 219);
+}
+
+
+    
+.vampetap{
+    color:palevioletred;
+    font-size: 300%;
+    text-align:center;
+    background-color:rgb(238, 185, 229);
+    position: static;-o-border-image: space
+    ;
+} 
+
+
+p{
+    font-size:160%;
+} 
