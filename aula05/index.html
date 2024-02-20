@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formas em texto </title>
+    <style>
+        #square
+        {
+            float: left;
+            width: 900px;
+            height: 180px;
+            background-color: rgb(0, 255, 55);
+            shape-outside: inset(20px 5px 30px 10px);
+        }
+        #circulo
+        {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50%;
+            shape-outside: circle();
+            clip-path: circle();
+        }
+       #circulocortado{
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin: 6px;
+            background-color: rgb(13, 221, 221);
+            shape-outside: circle(50% at 50%);
+            clip-path: circle(50% at 0);
+       }
+       #ellipse{
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            shape-outside: ellipse(20% 50%) ;
+            clip-path: ellipse(20% 50%) ;
+            background-color: blue;
+       }
+    </style>
+    
+</head>
+<body>
+    <h1> shape-outside</h1>
+    <p>permita que voce defina uma forma para que o texto se envolva e flua ao seu redor</p>
+    <p>junto a essa propiedade temos algumas formas básicas</p>
+    <p>o elemento que vamos aplicas a forma com a propiedade 
+        <strong>shape-outside</strong> precisa da propiedade <strong>float</strong>
+    </p>
+    <ul>
+        <li>inset()</li>
+        <li>circle()</li>
+        <li>ellipse()</li>
+        <li>polygon()</li>
+    </ul>
+    <h2>inset()</h2>
+    <p>pode ser usado para criar um retangulo quadrado com um deslocamento opicional para o texto que o envolver</p>
+    <div id="square"> </div>
+        <p>qadrado</p>
+    <div id="circulo"> </div>
+        <p>circulo</p>
+    <div id="circulocortado"></div>    
+        <p>meio circulo</p>
+    <div id="ellipse"></div>
+        <p>ellipse</p>
+</body>
+</html>
