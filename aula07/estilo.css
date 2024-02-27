@@ -1,0 +1,76 @@
+*{ margin: 0;
+outline: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgb(217, 163, 238);
+padding: 0;
+font-size: 1.3em;
+}
+#externo{
+    position: relative;
+    max-width: 700px;
+    height: 500px;
+    margin:50px auto;
+    background-color: #a723ff;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid #7b01cc;
+    top: -340px;
+    }
+.container{
+max-width: 640px;
+height: 350px;
+margin:50px auto;
+background-color: #7b01cc;
+border-radius: 20px;
+padding: 20px;
+box-shadow: .3em .3em .3em .3em;
+}
+
+h1{
+color: rgb(213, 147, 243);
+text-align:center;
+}
+
+form input, form label, form button {
+display:block;
+width: 100%;
+margin-bottom: 10px;
+color: rgb(228, 120, 250);
+border-radius: 5px;
+
+}
+
+form input{
+font-size: 24px;
+height: 50px;
+padding: 0 20px;
+}
+
+form button{
+border: none;
+background-color: rgb(213, 147, 243);
+color: white;
+font-size: 18px;
+height: 50px;
+}
+form img{
+
+    position: relative;
+  left: 45px;
+  bottom: -30px;
+  width: 540px;
+  border: 5px solid #7b01cc;
+}
+
+#quadrado{
+  position: relative;
+  max-width: 700px;
+  height: 350px;
+  margin:50px auto;
+  background-color: #9228f5c5;
+  border-radius: 20px;
+  bottom: -50px;
+} 
