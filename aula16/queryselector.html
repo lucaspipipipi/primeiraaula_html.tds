@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>o metodo queryselector()</h1>
+    <p class="exemple"> eu sou um paragrafo</p>
+    <p class="exemple"> eu sou um paragrafo</p>
+    <div id="nome"> meu nome</div>
+
+    <script>
+        const lista = document.querySelectorAll(".exemple")
+        for (let i = 0; 1 < lista.length; i++){
+            lista[i].style.backgroundColor = "yellow"
+        }
+
+    const head = document.head;
+    const body = document.body;
+
+    if (head.compareDocumentPosition(body) & Node.DOCUMENT_POSITION_FOLLOWING) {
+    console.log("Well-formed document");
+    } else {
+    console.error("<head> is not before <body>");
+    }
+    </script>
+</body>
+</html>

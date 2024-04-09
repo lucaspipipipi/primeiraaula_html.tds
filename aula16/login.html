@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="coisoStyle.css">
+<title>Meu Site</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#">Página Inicial</a></li>
+          <li><a href="coiso.html">Perfil</a></li>
+        </ul>
+      </nav>
+<div class="all">
+    <div class="border">  
+        <div class="container1" id="header"> 
+            <h1>MyRoom</h1> 
+            <p><strong>Login</strong></p>
+        </div>
+            <div class="container2" id="menu">
+                <div class="nav"></div>
+                <div class="nav ul"></div>
+                <div class="nav ul li"></div>
+                <div class="nav ul li a"></div>
+            </div>
+
+            <div class="container3" id="Perfil">
+
+                <h2>Perfil do Usuário</h2>
+                <form action="coiso.html">
+                    <label for="fname">Primeiro nome:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br><br>
+
+                    <label for="lname">Segundo nome:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                    <input type="submit" value="Submit">
+                  </form> 
+            </div> 
+    </div>
+</div>
+
+  <form method="post" enctype="multipart/form-data">
+    <div>
+      <label for="image_uploads">Escolha a imagem para foto de perfil (PNG, JPG)</label>
+      <input
+        type="file"
+        id="image_uploads"
+        name="image_uploads"
+        accept=".jpg, .jpeg, .png"
+        multiple />
+    </div>
+    <div class="preview">
+      <p>nenhum arquivo selecionado</p>
+    </div>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+  
+<script src="login.js">
+  
+</script>
+
+</body>
+</html>
